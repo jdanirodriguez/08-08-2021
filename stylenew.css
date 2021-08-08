@@ -1,0 +1,243 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:  Georgia, Arial;
+}
+body {
+background-image: url(images/image_summer.jpg);
+background-repeat: no-repeat;
+/*======================================== NEW THINGS ========================================= 
+height: 100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+======================================== END NEW THINGS ========================================= */
+}
+
+
+
+li, a{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+ 
+
+}
+
+.container{
+  width: 40%;
+  height: 100%;
+  color:black;
+  background-color: white;
+  background-size: cover;
+
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-bottom: 15rem;
+}
+
+.nav_links{
+  list-style: none;
+  padding-top: 20px;
+ 
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 5px;
+}
+.subscribe-box{
+  margin: 234px 140px 0px 140px;
+  padding-bottom: 3.1rem;
+}
+h1{
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+  padding-bottom: 1rem;
+
+}
+p{
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.75rem;
+  padding-bottom: 3.125rem;
+}
+/*======================================== NEW THINGS ========================================= */
+.inputBox{
+  display: flex;
+  margin-left: 100px;
+  width: 100%;
+
+}
+
+.input-email{ /* I changed input[type=text] to input-email */
+  height: 70px;
+  padding: 20px;
+  margin-left:  20px; 
+  border-left: 4px solid #4066A5;
+}
+
+.button-submit{
+    overflow: visible;
+    position: relative;
+    justify-content: flex-end;
+  }
+  
+/*======================================== END NEW THINGS ========================================= */
+
+
+.checkbox{
+  width: 26px;
+  height: 26px;
+  left: 140px;
+  top: 663px;
+  background: #4066A5;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.checkbox-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.line{
+  height: 1px;
+  width: 70%;
+  background-color: #E3E3E4;
+  margin-bottom: 3rem;
+  margin-left: 8.75rem;
+  margin-right: 8.75rem;
+
+
+}
+.social-menu li{
+ display: inline-block;
+ padding: 0px 10px;
+}
+
+.social-menu{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15rem;
+}
+/*
+button{
+  position: relative;
+  top: -125px;
+  bottom: 67px;
+  right: -438px;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-top: 1.75rem;o
+  padding-bottom: 1.75rem;
+  padding-right: 2.5rem;
+}
+.fa-arrow-right{
+  padding: 14px;
+  font-size: 30px;
+  width: 46px;
+}
+*/
+
+/*--- SOCIAL MEDIA ICONS ---*/
+
+.fa-facebook {
+  background: white;
+  color: #E2E3E4;
+  border: 2px solid #E2E3E4;
+}
+.fa{
+  padding: 14px;
+  font-size: 30px;
+  width: 46px;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+  }
+.fa-facebook:hover{
+  background: #4267B2;
+  color: white; 
+}
+.fa-instagram {
+  background: white;
+  color: #E2E3E4;
+  border: 2px solid #E2E3E4;
+}
+.fa{
+  padding: 14px;
+  font-size: 30px;
+  width: 46px;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+  }
+.fa-instagram:hover {
+  background: #C13584;
+  color: white; 
+}
+.fa-instagram:visited{
+  background: #8F2762;
+  color: white;
+}
+.fa-twitter {
+  background: white;
+  color: #E2E3E4;
+  border: 2px solid #E2E3E4;
+}
+.fa{
+  padding: 14px;
+  font-size: 30px;
+  width: 46px;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+  }
+.fa-twitter:hover {
+  background: #1DA1F2;
+  color: white; 
+}
+.fa-youtube {
+  background: white;
+  color: #E2E3E4;
+  border: 2px solid #E2E3E4;
+}
+.fa{
+  padding: 14px;
+  font-size: 30px;
+  width: 46px;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+  }
+.fa-youtube:hover {
+  background: red;
+  color: white; 
+}
+
+
+
+
+
+@media (min-width: 960px){
+  .main-header .container {
+    justify-content: space-between;
+  }
+}
