@@ -4,15 +4,10 @@
   padding: 0;
   font-family:  Georgia, Arial;
 }
-body {
+
+body{
 background-image: url(images/image_summer.jpg);
 background-repeat: no-repeat;
-/*======================================== NEW THINGS ========================================= 
-height: 100vh;
-display:flex;
-justify-content: center;
-align-items: center;
-======================================== END NEW THINGS ========================================= */
 }
 
 
@@ -22,9 +17,7 @@ li, a{
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
- 
-
-}
+ }
 
 .container{
   width: 40%;
@@ -32,7 +25,6 @@ li, a{
   color:black;
   background-color: white;
   background-size: cover;
-
 }
 
 .header{
@@ -133,25 +125,6 @@ p{
   justify-content: center;
   padding-bottom: 15rem;
 }
-/*
-button{
-  position: relative;
-  top: -125px;
-  bottom: 67px;
-  right: -438px;
-  border: none;
-  outline: none;
-  background: transparent;
-  padding-top: 1.75rem;o
-  padding-bottom: 1.75rem;
-  padding-right: 2.5rem;
-}
-.fa-arrow-right{
-  padding: 14px;
-  font-size: 30px;
-  width: 46px;
-}
-*/
 
 /*--- SOCIAL MEDIA ICONS ---*/
 
